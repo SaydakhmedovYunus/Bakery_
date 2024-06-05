@@ -1,0 +1,338 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 2px solid red;
+}
+header {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+header {
+  .logo {
+    width: calc(6.5vw + 66.3px);
+  }
+  nav {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+  }
+  nav select {
+    font-family: "Inter";
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    color: #000000;
+  }
+  nav a {
+    text-decoration: none;
+    color: #000000;
+  }
+  div {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+  }
+
+  div img {
+    width: calc(1.1vw + 15.7px);
+  }
+}
+@media (max-width: 700px) {
+  header nav {
+    display: none;
+  }
+  header {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    gap: 147px;
+  }
+  header div {
+    gap: 24px;
+  }
+}
+
+.main_wrapper {
+  margin-left: calc(14vw - 37.8px);
+  margin-right: calc(16.4vw - 46.6px);
+  margin-top: 40px;
+  background-color: #e3f1ff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 12px;
+}
+.left_side {
+  border-radius: 12px 0px 0px 12px;
+}
+.left_side img {
+  width: 100%;
+  height: 100%;
+}
+.right_side {
+  width: calc(3.4vw + 269px);
+  margin-left: calc(3vw + 20.3px);
+  margin-top: 115px;
+  margin-right: calc(0.75vw + 29.1px);
+  margin-bottom: 115px;
+  display: flex;
+  flex-direction: column;
+  gap: calc(0.37vw + 6.59px);
+}
+.trend {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.trend h4 {
+  font-family: "Inter";
+  font-size: calc(0.37vw + 8.59px);
+  font-weight: 500;
+  line-height: 18px;
+  color: #000000;
+}
+.trend img {
+  width: calc(0.37vw + 14.59px);
+}
+.right_side h1 {
+  font-family: Playfair Display;
+  font-size: calc(1.4vw + 24.7px);
+  font-weight: 700;
+  line-height: 56px;
+  text-align: left;
+  color: #000000;
+}
+.right_side p {
+  font-family: "Inter";
+  font-size: calc(0.37vw + 12.59px);
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+}
+@media (max-width: 700px) {
+  .right_side {
+    padding-top: 32px;
+    padding-bottom: 72px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+@media (max-width: 1280px) {
+  .main_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 500px) {
+  .main_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius: 12px;
+  }
+}
+
+.food_container {
+  margin-left: calc(14vw - 37.8px);
+  margin-right: calc(14vw - 37.8px);
+  margin-top: calc(4.13vw + 20.5px);
+  display: flex;
+  flex-direction: column;
+}
+.food_container h1 {
+  width: 264px;
+  font-family: "Playfair Display";
+  font-size: calc(1.12vw + 19.7px);
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+}
+.main_food {
+  width: 100%;
+  margin-top: calc(0.99vw + 18.3px);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.main_food div {
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #000000;
+}
+.food_container .food {
+  width: 100%;
+}
+.food_container .stars {
+  width: 96px;
+}
+.food_container div span {
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 28px;
+  letter-spacing: -0.20000000298023224px;
+  text-align: left;
+}
+
+@media (max-width: 1440px) {
+  .list {
+    display: none;
+  }
+  .main_food {
+    flex-wrap: nowrap;
+  }
+}
+@media (max-width: 500px) {
+  .list {
+    display: block;
+  }
+}
+@media (max-width: 1280px) {
+  .main_food {
+    flex-wrap: nowrap;
+  }
+}
+@media (max-width: 500px) {
+  .main_food {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 1110px) {
+  .main_food {
+    flex-wrap: wrap;
+  }
+}
+/* Экран категорий */
+.categories {
+  width: calc(71.8vw + 75.6px);
+  margin-left: calc(14vw - 37.8px);
+  margin-right: calc(14vw - 37.8px);
+  margin-top: calc(4.13vw + 20.5px);
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.categories h1 {
+  width: calc(9.95vw + 174.6px);
+  font-family: "Playfair Display";
+  font-size: calc(1.12vw + 19.7px);
+  font-weight: 700;
+  line-height: 44px;
+  text-align: left;
+}
+.categories_block {
+  width: 100%;
+  margin-top: calc(0.99vw + 18.3px);
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.categories_block div {
+  width: calc(6.1vw + 72.1px);
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    width: 100%;
+  }
+  h3 {
+    font-family: "Inter";
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+  }
+}
+
+@media (max-width: 1440px) {
+  .categories_block {
+    flex-wrap: nowrap;
+  }
+}
+
+@media (max-width: 400px) {
+  .categories_block {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 500px) {
+    .categories_block {
+        flex-wrap: wrap;
+    }
+}
+/* registration page */
+
+.registration_form {
+  background-color: #ffd7c9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.registration_form_wrapper {
+  margin-top: calc(4.5vw + 39px);
+  margin-bottom: calc(5.35vw + 33.9px);
+  width: calc(17.3vw + 279px);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.registration_form_wrapper h1 {
+  font-family: "Playfair Display";
+  font-size: calc(3.75vw + 21.9px);
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-align: center;
+  color: #000000;
+}
+.registration_form_wrapper h3 {
+  font-family: "Inter";
+  font-size: calc(0.75vw + 13.1px);
+  text-align: center;
+  color: #000000;
+}
+.registration_form_wrapper div {
+    display: flex;
+    flex-direction: row;
+    input {
+        width: 100%;
+        height: 68px;
+    }
+    button{
+        width: 127px;
+        background-color:#FF642F;
+        color:white;
+    }
+}
+
+.registration_form_wrapper h5 {
+font-family: 'Inter';
+font-size: 12px;
+line-height: 15px;
+text-align: center;
+color:#000000;
+}
+
+.registration_form_wrapper a {
+    text-decoration: none;
+    border-bottom: 1px solid red;
+}
