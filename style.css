@@ -143,6 +143,11 @@ header {
   }
 }
 
+@media (max-width:900px) {
+    .right_side {
+        margin-top: 50px;
+    }
+}
 .food_container {
   margin-left: calc(14vw - 37.8px);
   margin-right: calc(14vw - 37.8px);
