@@ -211,6 +211,12 @@ header {
     flex-wrap: nowrap;
   }
 }
+@media (max-width:1441px),(max-width:1690px) {
+    .main_food {
+        flex-wrap: nowrap;
+    }
+}
+/* Здесь идет двойная адаптивка */
 @media (max-width: 500px) {
   .main_food {
     flex-wrap: wrap;
@@ -231,6 +237,12 @@ header {
         margin-top: 30px;
     }
     
+}
+
+@media (max-width: 649px) {
+    .right_side {
+        padding-top: 0px;
+    }
 }
 /* Экран категорий */
 .categories {
@@ -344,6 +356,7 @@ header {
     }
 }
 
+
 .registration_form_wrapper h5 {
 font-family: 'Inter';
 font-size: 12px;
@@ -356,3 +369,4 @@ color:#000000;
     text-decoration: none;
     border-bottom: 1px solid red;
 }
+
