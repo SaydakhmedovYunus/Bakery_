@@ -213,8 +213,13 @@ header {
 }
 @media (max-width: 1110px) {
   .main_food {
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
   }
+}
+@media (max-width: 500px) {
+    .main_food {
+        flex-wrap: wrap;
+    }
 }
 /* Экран категорий */
 .categories {
