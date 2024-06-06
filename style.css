@@ -437,4 +437,37 @@ border: 1px solid black;
       width: 100%;
     }
       }
-    
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* здесь задаем затемнение заднего фона */
+  z-index: 999;
+  display: none;
+}
+.exit img {
+  width: 15px;
+  height: 15px;
+}
+.menu {
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:flex-start;
+  gap: 20px;
+  background-color: rgba(255, 255, 255, 0.9); /* здесь задаем прозрачность и цвет самого окна */
+  border-radius:10px;
+}
+.menu a {
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 500;
+line-height: 15px;
+text-align: left;
+text-decoration: none;
+color:#000000;
+}
