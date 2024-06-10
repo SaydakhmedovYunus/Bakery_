@@ -536,3 +536,72 @@ letter-spacing: -0.20000000298023224px;
 text-align: center;
 color: #000000;
 }
+/* Подвал */
+footer {
+  padding-left: calc(14vw - 37.8px);
+  padding-right: calc(14vw - 37.8px);
+  padding-top: calc(4.13vw + 20.5px);
+}
+.footer_parent_1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.logo_last {
+  width: 351px;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.logo_last img {
+  width: 128.78px;
+height: 39.94px;
+}
+.logo_last p {
+  width: 351px;
+height: 96px;
+top: 57px;
+gap: 0px;
+opacity: 0px;
+}
+.navigation_last {
+  width: 452px;
+  display: flex;
+  flex-direction: row;
+justify-content: space-between;
+}
+.navigation_last ul {
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+font-family: 'Inter';
+font-size: 14px;
+font-weight: bold;
+line-height: 18px;
+text-align: left;
+color:#000000;
+
+}
+.navigation_last ul a {
+  list-style: none;
+  text-decoration: none;
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 400;
+line-height: 23px;
+text-align: left;
+color: #7F7F7F;
+
+}
+.footer_parent_2 {
+  margin-top: 118px;
+  margin-bottom: 40px;
+  border-top: 1px solid grey;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
