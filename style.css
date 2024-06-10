@@ -471,3 +471,68 @@ text-align: left;
 text-decoration: none;
 color:#000000;
 }
+
+.latest_recipes{
+  margin-left: calc(14vw - 37.8px);
+  margin-right: calc(14vw - 37.8px);
+  margin-top: calc(4.13vw + 20.5px);
+  margin-bottom: 120px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.latest_recipes h1 {
+font-family: 'Playfair Display';
+font-size: calc(1.12vw + 19.7px);
+font-weight: 700;
+line-height: 44px;
+text-align: left;
+color: #000000;
+}
+.grid_container {
+  margin-top: calc(0.99vw + 18.3px);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+@media (max-width:600px) {
+  .grid_container {
+    margin-top: calc(0.99vw + 18.3px);
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
+.grid_container div {
+  display: flex;
+  flex-direction: column;
+  gap:8px;
+}
+.grid_container div img {
+  width: 100%;
+}
+.grid_container div h3 {
+font-family: 'Inter';
+font-size: calc(0.56vw + 9.88px);
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+}
+.drop_down {
+  margin-top: calc(3.38vw + 31.3px);
+width: calc(6.38vw + 94px);
+height:48px;
+border-radius: 4px;
+border: 1px solid black;
+background-color: white;
+font-family: 'Inter';
+font-size: calc(.37vw + 12.59px);
+font-weight: 500;
+line-height: 21.78px;
+letter-spacing: -0.20000000298023224px;
+text-align: center;
+color: #000000;
+}
