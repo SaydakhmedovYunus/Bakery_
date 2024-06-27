@@ -1,365 +1,435 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
     <div class="popup">
-      <div class="exit">
-        <img src="./img/quit.png" alt="exit" class="close" onclick="closePopup()">
-      </div>
-      <div class="menu">      
-        <a href="./index.html">Homepage</a>
-        <a href="./secondPage.html">Recipe page</a>
-        <a href="">Blog Page</a>
-        <a href="">Elements</a>
-        <a href="">More</a></div>
+        <div class="exit">
+            <img src="./img/quit.png" alt="exit" class="close" onclick="closePopup()">
+        </div>
+        <div class="menu">
+            <a href="./index.html">Homepage</a>
+            <a href="./secondPage.html">SecondPage</a>
+            <a href="">Blog Page</a>
+            <a href="">Elements</a>
+            <a href="">More</a>
+        </div>
     </div>
     <header>
-      <img src="./img/logo.png" alt="logo" class="logo" />
-      <nav>
-        <select name="" id="">
-          <option value="">Homepage</option>
-        </select>
-        <select name="" id="">
-          <option value="">Recipe Page</option>
-        </select>
-        <select name="" id="">
-          <option value="">Pages</option>
-        </select>
-        <a href="">Buy</a>
-      </nav>
-      <div>
-        <img src="./img/search.jpg" alt="search" />
-        <img src="./img/girl.png" alt="girl" />
-        <img src="./img/menu.png" alt="navigation" class="list" onclick="popup()"/>
-      </div>
-    </header>
-    <section class="main_wrapper">
-      <div class="left_side">
-        <img src="./img/tort.png" alt="tort" />
-      </div>
-      <div class="right_side">
-        <div class="trend">
-          <img src="./img/trending-up.png" alt="trend-up" />
-          <h4>85% would make this again</h4>
-        </div>
-        <h1>Mighty Super Cheesecake</h1>
-        <p>
-          Look no further for a creamy and ultra smooth classic cheesecake
-          recipe! no one can deny its simple decadence.
-        </p>
-      </div>
-    </section>
-    <section class="food_container">
-      <h1>Super Delicious</h1>
-      <div class="main_food">
-        <div>
-          <img src="./img/lapsha.png" alt="lapsha" class="food" />
-          <img src="./img/start.png" alt="stars" class="stars" />
-          <span>Spinach and Cheese Pasta</span>
-        </div>
-        <div>
-          <img src="./img/ponchik.png" alt="lapsha" class="food" />
-          <img src="./img/start.png" alt="stars" class="stars" />
-          <span>Fancy Glazed Donuts</span>
-        </div>
-        <div>
-          <img src="./img/burger.png" alt="lapsha" class="food" />
-          <img src="./img/start.png" alt="stars" class="stars" />
-          <span>Mighty Cheesy Breakfast Burger</span>
-        </div>
-      </div>
-    </section>
-    <section class="food_container">
-      <h1>Super Delicious</h1>
-      <div class="main_food">
-        <div>
-          <img src="./img/coctail.png" alt="lapsha" class="food" />
-          <img src="./img/start.png" alt="stars" class="stars" />
-          <span>Spinach and Cheese Pasta</span>
-        </div>
-        <div>
-          <img src="./img/coctail2.png" alt="lapsha" class="food" />
-          <img src="./img/start.png" alt="stars" class="stars" />
-          <span>Fancy Glazed Donuts</span>
-        </div>
-        <div>
-          <img src="./img/blinchiki.png" alt="lapsha" class="food" />
-          <img src="./img/start.png" alt="stars" class="stars" />
-          <span>Berry Maddness Biscuts</span>
-        </div>
-      </div>
-    </section>
-    <section class="categories">
-      <h1>Popular Categories</h1>
-      <div class="categories_block">
-        <div>
-          <img src="./img/ramyon.png" alt="pasta" />
-          <h3>Pasta</h3>
-        </div>
-        <div>
-          <img src="./img/pizza.png" alt="pizza" />
-          <h3>Pizza</h3>
-        </div>
-        <div>
-          <img src="./img/vegan.png" alt="vegan" />
-          <h3>Vegan</h3>
-        </div>
-        <div>
-          <img src="./img/ice cream.png" alt="deserts" />
-          <h3>Desserts</h3>
-        </div>
-        <div>
-          <img src="./img/smoothy.png" alt="smoothy" />
-          <h3>Smoothies</h3>
-        </div>
-        <div>
-          <img src="./img/breakfast.png" alt="breakfast" />
-          <h3>Breakfast</h3>
-        </div>
-      </div>
-    </section>
-    <section class="registration_form">
-      <div class="registration_form_wrapper">
-        <h1>Deliciousness to your inbox</h1>
-        <h3>Enjoy weekly hand picked recipes and recommendations</h3>
-        <div>
-          <input type="text" placeholder=" Email Address" />
-          <button>JOIN</button>
-        </div>
-        <h5>By joining our newsletter you agree to our <a href="">Terms and Conditions</a></h5>
-      </div>
-    </section>
-    <section class="hand_collection">
-      <h1>Hand-Picked Collections</h1>
-      <div class="hand_collection_container">
-        <div class="main_collection">
-          <div>
-            <img src="./img/sushi.png" alt="sushi">
-          </div>
-             <div class="mini_blocks">
-              <h3>Sushi Combos for your Next Party</h3>
-              <button>156 Recipes</button>
-            </div>
-        </div>
-        <div class="main_collection">
-          <div>
-            <img src="./img/donuts.png" alt="sushi">
-          </div>
-             <div class="mini_blocks">
-              <h3>Everything Bagel</h3>
-              <button>156 Recipes</button>
-            </div>
-        </div>
-        <div class="main_collection">
-          <div>
-            <img src="./img/red_cookies.png" alt="sushi">
-          </div>
-             <div class="mini_blocks">
-              <h3>Cook Like a Chef</h3>
-              <button>156 Recipes</button>
-            </div>
-        </div>
-        <div class="main_collection">
-          <div>
-            <img src="./img/friends.png" alt="sushi">
-          </div>
-             <div class="mini_blocks">
-              <h3>Exquisite Dinner Recipe Ideas</h3>
-              <button>156 Recipes</button>
-            </div>
-        </div>
-        <div class="main_collection">
-          <div>
-            <img src="./img/milk.png" alt="sushi">
-          </div>
-             <div class="mini_blocks">
-              <h3>The Ultimate Cookie Frenzy</h3>
-              <button>156 Recipes</button>
-            </div>
-        </div>
-        <div class="main_collection">
-          <div>
-            <img src="./img/donuts (2).png" alt="sushi">
-          </div>
-             <div class="mini_blocks">
-              <h3>For the Love of Donuts</h3>
-              <button>156 Recipes</button>
-            </div>
-        </div>
-      </div>
-    </section>
-        <section class="latest_recipes">
-      <h1>Latest Recipes</h1>
-      <div class="grid_container">
-        <div>
-          <img src="./img/13.jpg" alt="milkshake">
-          <h3>Caramel Strawberry Milkshake</h3>
-        </div>
-  
-        <div>
-          <img src="./img/14.png" alt="milkshake">
-          <h3>Cashew Vegan Rice</h3>
-        </div>
-
-        <div>
-          <img src="./img/15.png" alt="milkshake">
-          <h3>Smoked Salmon Salad Sandwich</h3>
-        </div>
-
-        <div>
-          <img src="./img/16.png" alt="milkshake">
-          <h3>Salmon in Creamy Sun Dried Tomato Sauce</h3>
-        </div>
-        
-        <div>
-          <img src="./img/17.png" alt="milkshake">
-          <h3>Healthy Jam Waffle Breakfast</h3>
-        </div>
-        
-        <div>
-          <img src="./img/18.png" alt="milkshake">
-          <h3>Chocolate and Banana Jar Cake</h3>
-        </div>
-        
-        <div>
-          <img src="./img/cake.png" alt="milkshake">
-          <h3>Caramel Blueberry Scones</h3>
-        </div>
-        
-        <div>
-          <img src="./img/20.png" alt="milkshake">
-          <h3>Blueberry Carrot Cake</h3>
-        </div>
-        
-        <div>
-          <img src="./img/21.png" alt="milkshake">
-          <h3>Vegan Cauliflower Salad</h3>
-        </div>
-        
-        <div>
-          <img src="./img/22.png" alt="milkshake">
-          <h3>Roasted Red Pepper Soup</h3>
-        </div>
-        
-        <div>
-          <img src="./img/23.png" alt="milkshake">
-          <h3>Eggs and Avocado Toast</h3>
-        </div>
-        
-        <div>
-          <img src="./img/24.png" alt="milkshake">
-          <h3>Pork Shoulder Cashew Noodles</h3>
-        </div>
-        
-        <div>
-          <img src="./img/25.png" alt="milkshake">
-          <h3>Toasted Farfalle In Pesto Sauce</h3>
-        </div>
-        
-        <div>
-          <img src="./img/26.png" alt="milkshake">
-          <h3>Cheesy Bacon Burger Sliders</h3>
-        </div>
-        
-        <div>
-          <img src="./img/27.png" alt="milkshake">
-          <h3>Fig and Raisins Oatmeal</h3>
-        </div>
-        
-        <div>
-          <img src="./img/28.png" alt="milkshake">
-          <h3>Silky Smooth Panacotta</h3>
-        </div>
-        
-        <div>
-          <img src="./img/29.png" alt="milkshake">
-          <h3>Triple Decker Cranberry Cake</h3>
-        </div>
-        
-        <div>
-          <img src="./img/30.png" alt="milkshake">
-          <h3>Very Berry Healthy Summer Smoothie</h3>
-        </div>
-        
-        <div>
-          <img src="./img/31.png" alt="milkshake">
-          <h3>Crispy Orange Chips</h3>
-        </div>
-        
-        <div>
-          <img src="./img/32.png" alt="milkshake">
-          <h3>Tumeric Lavendar Tea</h3>
-        </div>
-        
-        <div>
-          <img src="./img/33.png" alt="milkshake">
-          <h3>Blue Velvet Brownies</h3>
-        </div>
-        
-        <div>
-          <img src="./img/34.png" alt="milkshake">
-          <h3>Birthday Cupcakes</h3>
-        </div>
-        
-        <div>
-          <img src="./img/35.png" alt="milkshake">
-          <h3>Gourmet Fillet in Roasted Almond Sauce</h3>
-        </div>
-
-        <div>
-          <img src="./img/36.png" alt="milkshake">
-          <h3>Four Ingredient Oatmeal Pancakes</h3>
-        </div>
-      </div>
-      <button class="drop_down">Load More</button>
-    </section>
-        <footer>
-      <div class="footer_parent_1">
-        <div class="logo_last">
-          <img src="./img/logo.png" alt="">
-          <p>"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment</p>
-        </div>
-        <div class="navigation_last">
-          <ul>
-            Tastebite
-            <li><a href="">About us</a></li>
-            <li><a href="">Careers</a></li>
-            <li><a href="">Contact Us</a></li>
-            <li><a href="">Feedback</a></li>
-
-          </ul>
-          <ul>
-            Legal
-            <li><a href="">Terms</a></li>
-            <li><a href="">Conditions</a></li>
-            <li><a href="">Cookies</a></li>
-            <li><a href="">Copyright</a></li>
-          </ul>
-          <ul>
-            Follow
-            <li><a href="">Facebook</a></li>
-            <li><a href="">Twitter</a></li>
-            <li><a href="">Instagram</a></li>
-            <li><a href="">Youtube</a></li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="footer_parent_2">
-        <h4>© 2020 Tastebite - All rights reserved</h4>
+        <img src="./img/logo.png" alt="logo" class="logo" />
         <nav>
-          <a href=""><img src="./img/facebook.png" alt="facebook"></a>
-          <a href=""><img src="./img/twitter.png" alt="twitter"></a>
-          <a href=""><img src="./img/youtube.png" alt="youtube"></a>
-          <a href=""><img src="./img/instagram.png" alt="instagram"></a>
+            <select name="" id="">
+                <option value="">Homepage</option>
+            </select>
+            <select name="" id="">
+                <option value="">Recipe Page</option>
+            </select>
+            <select name="" id="">
+                <option value="">Pages</option>
+            </select>
+            <a href="">Buy</a>
         </nav>
-      </div>
+        <div>
+            <img src="./img/search.jpg" alt="search" />
+            <img src="./img/girl.png" alt="girl" />
+            <img src="./img/menu.png" alt="navigation" class="list" onclick="popup()" />
+        </div>
+    </header>
+    <section class="full_guide">
+        <h1>A full guide for a better and smarter cooking</h1>
+        <div class="profile">
+            <div>
+                <img src="./img2/32px.png" alt="">
+                <p>Tricia Albert</p>
+            </div>
+            <div>
+                <img src="./img2/calendar.png" alt="">
+                <p>Calendar</p>
+            </div>
+        </div>
+        <img src="./img2/Horizontal.png" alt="line" class="line_1">
+        <p class="article">One thing I learned living in the Canarsie section of Brooklyn, NY was how to cook a good
+            Italian meal. Here is a recipe I created after having this dish in a restaurant. Enjoy! </p>
+    </section>
+    <section class="video_1">
+        <img src="./img2/play.png" alt="" class="player">
+    </section>
+    <section class="before">
+        <h1>Before you begin</h1>
+        <p>Food qualities braise chicken cuts bowl through slices butternut snack. Tender meat juicy dinners. One-pot
+            low heat plenty of time adobo fat raw soften fruit. sweet renders bone-in marrow richness kitchen, fricassee
+            basted pork shoulder. Delicious butternut squash hunk.</p>
+    </section>
+    <section class="basics">
+        <div class="left_text">
+            <h1>Here are the basics</h1>
+            <p>Juicy meatballs brisket slammin' baked shoulder. Juicy smoker soy sauce burgers brisket. polenta mustard
+                hunk greens. Wine technique snack skewers chuck excess. Oil heat slowly.
+                <br></br>
+                slices natural delicious, set aside magic tbsp skillet, bay leaves brown centerpiece. fruit soften edges
+                frond slices onion snack pork steem on wines excess technique cup; Cover smoker soy sauce fruit snack.
+                Sweet one-dozen scrape delicious, non sheet raw crunch mustard. Minutes clever slotted tongs scrape,
+                brown steem undisturbed rice.
+            </p>
+        </div>
+        <div class="right_testo">
+            <img src="./img2/testo.png" alt="">
+            <p>Here is a caption
+            </p>
+        </div>
+    </section>
+    <section class="thinking">
+        <h1>“One cannot think well, love well, sleep well, if one has not dined well.”</h1>
+        <p>― Virginia Woolf, A Room of One's Own</p>
+    </section>
+    <section class="tatu">
+        <h1>In the kitchen</h1>
+        <div>
+            <p>Gastronomy atmosphere set aside. Slice butternut cooking home. Delicious romantic undisturbed raw platter
+                will meld. Thick Skewers skillet natural, smoker soy sauce wait roux. slices rosette bone-in simmer
+                precision alongside baby leeks. Crafting renders aromatic enjoyment, then slices taco. Minutes
+                undisturbed cuisine lunch magnificent mustard curry. Juicy share baking sheet pork. Meals ramen rarities
+                selection, raw pastries richness magnificent atmosphere. Sweet soften dinners, cover mustard infused
+                skillet, Skewers on culinary experience.
+
+                Juicy meatballs brisket slammin' baked shoulder. Juicy smoker soy sauce burgers brisket. polenta mustard
+                hunk greens. Wine technique snack skewers chuck excess. Oil heat slowly. slices natural delicious, set
+                aside magic tbsp skillet, bay leaves brown centerpiece. fruit soften edges frond slices onion snack pork
+                steem on wines excess technique cup; Cover smoker soy sauce fruit snack. Sweet one-dozen scrape
+                delicious, non sheet raw crunch mustard. Minutes clever slotted tongs scrape, brown steem undisturbed
+                rice.
+
+                Food qualities braise chicken cuts bowl through slices butternut snack. Tender meat juicy dinners.
+                One-pot low heat plenty of time adobo fat raw soften fruit. sweet renders bone-in marrow richness
+                kitchen, fricassee basted pork shoulder. Delicious butternut squash hunk. Flavor centerpiece plate,
+                delicious ribs bone-in meat, excess chef end. sweet effortlessly pork, low heat smoker soy sauce flavor
+                meat, rice fruit fruit. Romantic fall-off-the-bone butternut chuck rice burgers.
+            </p>
+            <img src="./img2/tatu.png" alt="tatu">
+            <p>Gastronomy atmosphere set aside. Slice butternut cooking home. Delicious romantic undisturbed raw platter
+                will meld. Thick Skewers skillet natural, smoker soy sauce wait roux. slices rosette bone-in simmer
+                precision alongside baby leeks. Crafting renders aromatic enjoyment, then slices taco. Minutes
+                undisturbed cuisine lunch magnificent mustard curry. Juicy share baking sheet pork. Meals ramen rarities
+                selection, raw pastries richness magnificent atmosphere. Sweet soften dinners, cover mustard infused
+                skillet, Skewers on culinary experience.
+
+                Juicy meatballs brisket slammin' baked shoulder. Juicy smoker soy sauce burgers brisket. polenta mustard
+                hunk greens. Wine technique snack skewers chuck excess. Oil heat slowly. slices natural delicious, set
+                aside magic tbsp skillet, bay leaves brown centerpiece. fruit soften edges frond slices onion snack pork
+                steem on wines excess technique cup; Cover smoker soy sauce fruit snack. Sweet one-dozen scrape
+                delicious, non sheet raw crunch mustard. Minutes clever slotted tongs scrape, brown steem undisturbed
+                rice.
+
+                Food qualities braise chicken cuts bowl through slices butternut snack. Tender meat juicy dinners.
+                One-pot low heat plenty of time adobo fat raw soften fruit. sweet renders bone-in marrow richness
+                kitchen, fricassee basted pork shoulder. Delicious butternut squash hunk. Flavor centerpiece plate,
+                delicious ribs bone-in meat, excess chef end. sweet effortlessly pork, low heat smoker soy sauce flavor
+                meat, rice fruit fruit. Romantic fall-off-the-bone butternut chuck rice burgers.
+            </p>
+        </div>
+    </section>
+    <section class="wrapper_blue">
+        <div class="main_wrapper_blue">
+            <div class="editors">
+                <div>
+                    <img src="./img2/cc.png" alt="girl_icon">
+                </div>
+                <div>
+                    <h3>Julie Gomez</h3>
+                    <h3>Editor in chief</h3>
+                </div>
+            </div>
+            <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+                in some form, by injected humour, or randomised words which don't look even slightly believable. If you
+                are from repetition, injected humour, or non-characteristic words etc.
+            </p>
+            <div class="socials_part2">
+                <img src="./img2/twitter.png" alt="twitter">
+                <img src="./img2/instagram.png" alt="instagram">
+                <img src="./img2/facebook.png" alt="facebook">
+            </div>
+        </div>
+    </section>
+    <section class="comments">
+        <h1>Comments</h1>
+        <img src="./img2/Horizontal.png" alt="" class="line">
+        <div class="main_comments">
+            <div class="face_part">
+                <div>
+                    <img src="./img2/cc.png" alt="girl_icon" class="girl_3">
+                </div>
+                <div class="minutes">
+                    <h3>Jelanee Uwaezuoke</h3>
+                    <h3>45min ago</h3>
+                </div>
+            </div>
+            <div class="comments_part">
+                <p>
+                    Synth polaroid bitters chillwave pickled. Vegan disrupt tousled, Portland keffiyeh aesthetic food
+                    truck sriracha cornhole single-origin coffee church-key roof party.
+                </p>
+                <div class="comments_images">
+                    <div>
+                        <img src="./img2/message-square.png" alt="">
+                        <span>Reply (2)</span>
+                    </div>
+                    <div>
+                        <img src="./img2/heart.png" alt="">
+                        <span>48</span>
+                    </div>
+                    <div>
+                        <img src="./img2/more-horizontal.png" alt="">
+                        <span>More</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./img2/Horizontal.png" alt="" class="line">
+
+        <div class="main_comments_2">
+            <div class="face_part">
+                <div>
+                    <img src="./img2/man_orin.png" alt="girl_icon" class="girl_3">
+                </div>
+                <div class="minutes">
+                    <h3>Jelanee Uwaezuoke</h3>
+                    <h3>45min ago</h3>
+                </div>
+            </div>
+            <div class="comments_part">
+                <p>
+                    Synth polaroid chillwave pickled 🔥
+                </p>
+                <div class="comments_images">
+                    <div>
+                        <img src="./img2/message-square.png" alt="">
+                        <span>Reply (2)</span>
+                    </div>
+                    <div>
+                        <img src="./img2/heart.png" alt="">
+                        <span>48</span>
+                    </div>
+                    <div>
+                        <img src="./img2/more-horizontal.png" alt="">
+                        <span>More</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./img2/Horizontal.png" alt="" class="line">
+        <div class="main_comments_3">
+            <div class="face_part">
+                <div>
+                    <img src="./img2/woman.png" alt="girl_icon" class="girl_3">
+                </div>
+                <div class="minutes">
+                    <h3>Jelanee Uwaezuoke</h3>
+                    <h3>45min ago</h3>
+                </div>
+            </div>
+            <div class="comments_part">
+                <p>
+                    Synth polaroid bitters chillwave pickled. Vegan disrupt tousled, Portland keffiyeh aesthetic food
+                    truck sriracha cornhole single-origin coffee church-key roof party.
+                </p>
+                <div class="comments_images">
+                    <div>
+                        <img src="./img2/message-square.png" alt="">
+                        <span>Reply (2)</span>
+                    </div>
+                    <div>
+                        <img src="./img2/heart.png" alt="">
+                        <span>48</span>
+                    </div>
+                    <div>
+                        <img src="./img2/more-horizontal.png" alt="">
+                        <span>More</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./img2/Horizontal.png" alt="" class="line">
+        <div class="main_comments">
+            <div class="face_part">
+                <div>
+                    <img src="./img2/boboy.png" alt="girl_icon" class="girl_3">
+                </div>
+                <div class="minutes">
+                    <h3>Jelanee Uwaezuoke</h3>
+                    <h3>45min ago</h3>
+                </div>
+            </div>
+            <div class="comments_part">
+                <p>
+                    Synth polaroid bitters chillwave pickled. Vegan disrupt tousled, Portland keffiyeh aesthetic food
+                    truck sriracha cornhole single-origin coffee church-key roof party.
+                </p>
+                <div class="comments_images">
+                    <div>
+                        <img src="./img2/message-square.png" alt="">
+                        <span>Reply (2)</span>
+                    </div>
+                    <div>
+                        <img src="./img2/heart.png" alt="">
+                        <span>48</span>
+                    </div>
+                    <div>
+                        <img src="./img2/more-horizontal.png" alt="">
+                        <span>More</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./img2/Horizontal.png" alt="" class="line">
+        <div class="main_comments">
+            <div class="face_part">
+                <div>
+                    <img src="./img2/brazilian.png" alt="girl_icon" class="girl_3">
+                </div>
+                <div class="minutes">
+                    <h3>Jelanee Uwaezuoke</h3>
+                    <h3>45min ago</h3>
+                </div>
+            </div>
+            <div class="comments_part">
+                <p>
+                    Synth polaroid bitters chillwave pickled. Vegan disrupt tousled, Portland keffiyeh aesthetic food
+                    truck sriracha cornhole single-origin coffee church-key roof party.
+                </p>
+                <div class="comments_images">
+                    <div>
+                        <img src="./img2/message-square.png" alt="">
+                        <span>Reply (2)</span>
+                    </div>
+                    <div>
+                        <img src="./img2/heart.png" alt="">
+                        <span>48</span>
+                    </div>
+                    <div>
+                        <img src="./img2/more-horizontal.png" alt="">
+                        <span>More</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./img2/Horizontal.png" alt="" class="line">
+        <div class="main_comments">
+            <div class="face_part">
+                <div>
+                    <img src="./img2/galstu.png" alt="girl_icon" class="girl_3">
+                </div>
+                <div class="minutes">
+                    <h3>Jelanee Uwaezuoke</h3>
+                    <h3>45min ago</h3>
+                </div>
+            </div>
+            <div class="comments_part">
+                <p>
+                    Synth polaroid bitters chillwave pickled. Vegan disrupt tousled, Portland keffiyeh aesthetic food
+                    truck sriracha cornhole single-origin coffee church-key roof party.
+                </p>
+                <div class="comments_images">
+                    <div>
+                        <img src="./img2/message-square.png" alt="">
+                        <span>Reply (2)</span>
+                    </div>
+                    <div>
+                        <img src="./img2/heart.png" alt="">
+                        <span>48</span>
+                    </div>
+                    <div>
+                        <img src="./img2/more-horizontal.png" alt="">
+                        <span>More</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./img2/Horizontal.png" alt="" class="line">
+        <div class="main_comments">
+            <div class="face_part">
+                <div>
+                    <img src="./img2/garri.png" alt="girl_icon" class="girl_3">
+                </div>
+                <div class="minutes">
+                    <h3>Jelanee Uwaezuoke</h3>
+                    <h3>45min ago</h3>
+                </div>
+            </div>
+            <div class="comments_part">
+                <p>
+                    Synth polaroid bitters chillwave pickled. Vegan disrupt tousled, Portland keffiyeh aesthetic food
+                    truck sriracha cornhole single-origin coffee church-key roof party.
+                </p>
+                <div class="comments_images">
+                    <div>
+                        <img src="./img2/message-square.png" alt="">
+                        <span>Reply (2)</span>
+                    </div>
+                    <div>
+                        <img src="./img2/heart.png" alt="">
+                        <span>48</span>
+                    </div>
+                    <div>
+                        <img src="./img2/more-horizontal.png" alt="">
+                        <span>More</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./img2/Horizontal.png" alt="" class="line">
+
+        <button class="load_1">Load 25 more comments</button>
+    </section>
+    <footer>
+        <div class="footer_parent_1">
+            <div class="logo_last">
+                <img src="./img/logo.png" alt="">
+                <p>"On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and
+                    demoralized by the charms of pleasure of the moment</p>
+            </div>
+            <div class="navigation_last">
+                <ul>
+                    Tastebite
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Careers</a></li>
+                    <li><a href="">Contact Us</a></li>
+                    <li><a href="">Feedback</a></li>
+
+                </ul>
+                <ul>
+                    Legal
+                    <li><a href="">Terms</a></li>
+                    <li><a href="">Conditions</a></li>
+                    <li><a href="">Cookies</a></li>
+                    <li><a href="">Copyright</a></li>
+                </ul>
+                <ul>
+                    Follow
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">Youtube</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer_parent_2">
+            <h4>© 2020 Tastebite - All rights reserved</h4>
+            <nav>
+                <a href=""><img src="./img/facebook.png" alt="facebook"></a>
+                <a href=""><img src="./img/twitter.png" alt="twitter"></a>
+                <a href=""><img src="./img/youtube.png" alt="youtube"></a>
+                <a href=""><img src="./img/instagram.png" alt="instagram"></a>
+            </nav>
+        </div>
     </footer>
     <script src="./script.js"></script>
-  </body>
+</body>
+
 </html>
