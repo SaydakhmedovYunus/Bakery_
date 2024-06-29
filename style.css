@@ -979,6 +979,7 @@ font-size: 16px;
 font-weight: 400;
 line-height: 24px;
 text-align: left;
+outline: none;
 }
 .post {
 background-color: #FF642F;
@@ -994,4 +995,277 @@ line-height: 21.78px;
 letter-spacing: -0.20000000298023224px;
 text-align: center;
 border: none;
+}
+
+
+.video_2 {
+  height: calc(34.3vw + 129.1px);
+  margin-top: 20px;
+  margin-left: calc(14vw - 37.8px);
+  margin-right: calc(14vw - 37.8px);
+  background-image: url(./img2/cake\ video.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.player {
+  width: calc(6.76vw + 30.6px);
+  height:calc(6.76vw + 30.6px);
+}
+
+.about_ingredients {
+  margin-top: 40px;
+  margin-left: calc(14vw - 37.8px);
+  margin-right: calc(14vw - 37.8px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 30px;
+}
+.left_side_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.printers {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+.printers div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.printers div span {
+font-family: 'Inter';
+font-size: 12px;
+line-height: 15px;
+}
+.pens {
+  display: flex;
+  flex-direction: row;
+}
+.pens div {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.anIngredients {
+  width: calc(9.85vw + 253px);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.anIngredients h1 {
+font-family: 'Playfair Display';
+font-size: 30px;
+font-weight: 700;
+line-height: 37px;
+text-align: left;
+}
+.checkBoxes_1 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.checkBoxes_1 div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+.checkBoxes_1 span {
+font-family: 'Inter';
+font-size: 18px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: -0.20000000298023224px;
+text-align: left;
+}
+.checkBoxes_2 {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.instructions {
+  margin-top: 40px;
+  width: calc(33.1vw + 187.7px);
+
+}
+.instructions h1 {
+font-family: 'Playfair Display';
+font-size: 30px;
+font-weight: 700;
+line-height: 37px;
+text-align: left;
+}
+
+.instructions ol {
+  list-style-type: circle;
+  list-style-type:decimal ;
+  list-style-type: decimal; /* Тип маркера - цифры */
+  list-style-position: inside; /* Положение маркера внутри элемента */
+  margin-top: 38px;
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
+
+.line {
+  width: 1px;
+}
+@media (max-width:600px) {
+  .line {
+    display: none;
+  }
+  .about_ingredients {
+    margin-top: 40px;
+    margin-left: calc(14vw - 37.8px);
+    margin-right: calc(14vw - 37.8px);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width:600px) { 
+  .right_side_1 {
+margin-top: 40px;
+  }
+}
+.right_side_1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.nutr_facts {
+  width: 359px;
+  display: flex;
+  flex-direction: column;
+  background-color: #F9F9F9;
+}
+.nutr_facts_2{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.nutr_facts_2 div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid #E8E8E8;
+}
+.nutr_facts_2 div span {
+  font-family: 'Inter';
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+}
+.fresh_wrapper {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.fresh_wrapper h1 {
+font-family: 'Playfair Display';
+font-size: 30px;
+font-weight: 700;
+line-height: 37px;
+text-align: left;
+}
+.fresh {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 16px;
+}
+.fresh div {
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+.fresh div img {
+  width: 96px;
+}
+.contacts_with {
+  margin-top: 40px;
+  padding: 20px;
+  width: 360px;
+  background-color: #FFD7C9;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+}
+.contacts_with h1 {
+font-family: 'Playfair Display';
+font-size: 36px;
+font-weight: 700;
+line-height: 44px;
+text-align: center;
+}
+.contacts_with h2 {
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 300;
+line-height: 24px;
+text-align: center;
+}
+.contacts_with input {
+width: 292px;
+height: 48px;
+top: 159px;
+left: 6px;
+padding: 13px 122px 11px 16px;
+border: none;
+outline: none;
+content: url(./img/twitter.png);
+}
+.contacts_with button {
+  background-color: #FF642F;
+  color: white;
+width:292px;
+height: 48px;
+padding: 13px 125px 13px 125px;
+gap: 10px;
+border-radius: 4px;
+border: none;
+}
+.contacts_with span {
+font-family: 'Inter';
+font-size: 10px;
+line-height: 16px;
+text-align: center;
+border-bottom: 1px solid red;
+}
+.made_this {
+    margin-top: 40px;
+    margin-left: calc(14vw - 37.8px);
+    margin-right: calc(14vw - 37.8px);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.made_this h1 {
+  font-family: 'Playfair Display';
+  font-size: calc(2.81vw + 19.4px);
+  font-weight: 700;
+  line-height: 72px;
+}
+.made_this button {
+background-color: white;
+width: 271px;
+height: 48px;
+padding: 13px 48px 13px 48px;
+border-radius: 4px;
+border: 1px solid black;
 }
