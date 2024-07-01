@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  outline: 2px solid red;
+/*   outline: 2px solid red; */
 }  
 header {
   width: 100%;
@@ -897,7 +897,6 @@ text-align: left;
 .main_comments_2 {
   margin-left: calc(6vw - 6.53px);
   margin-top: 32px;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -906,7 +905,6 @@ text-align: left;
 .main_comments_3 {
   margin-left: calc(6vw - 6.53px);
   margin-top: 32px;
-  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -1145,7 +1143,7 @@ margin-top: 40px;
   flex-direction: column;
 }
 .nutr_facts {
-  width: 359px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   background-color: #F9F9F9;
@@ -1198,7 +1196,7 @@ gap: 8px;
 .contacts_with {
   margin-top: 40px;
   padding: 20px;
-  width: 360px;
+  width: 100%;
   background-color: #FFD7C9;
   display: flex;
   flex-direction: column;
