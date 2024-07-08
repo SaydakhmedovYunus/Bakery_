@@ -1,87 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TasteBite</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-  <div class="popup">
-    <div class="exit">
-        <img src="./img/quit.png" alt="exit" class="close" onclick="closePopup()">
-    </div>
-    <div class="menu">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TasteBite</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="popup">
+      <div class="exit">
+        <img
+          src="./img/quit.png"
+          alt="exit"
+          class="close"
+          onclick="closePopup()"
+        />
+      </div>
+      <div class="menu">
         <a href="./index.html">Homepage</a>
         <a href="./secondPage.html">SecondPage</a>
         <a href="./thirdPage.html">ThirdPage</a>
         <a href="./fourthPage.html">FourthPage</a>
         <a href="./fifthPage.html">LastPage</a>
+      </div>
     </div>
-</div>
-  <div class="last_logo_5">
-    <img src="./img/logo.png" alt="last_logo">
-  </div>
-<header class="last_header">
-   <img src="./img/search.jpg" alt="search"/>
-   <img src="./img/logo.png" alt="last_logo" class="last_photo">
-  <nav>
-    <select name="" id="">
-      <option value="">Homepage</option>
-  </select>
-  <select name="" id="">
-      <option value="">Recipe Page</option>
-  </select>
-  <select name="" id="">
-      <option value="">Pages</option>
-  </select>
-  <a href="">Buy</a>
-  </nav>
-  <img src="./img/menu.png" alt="menu" class="list" onclick="popup()">
-</header>
+    <div class="last_logo_5">
+      <img src="./img/logo.png" alt="last_logo" />
+    </div>
+    <header class="last_header">
+      <img src="./img/search.jpg" alt="search" />
+      <img src="./img/logo.png" alt="last_logo" class="last_photo" />
+      <nav>
+        <select name="" id="">
+          <option value="">Homepage</option>
+        </select>
+        <select name="" id="">
+          <option value="">Recipe Page</option>
+        </select>
+        <select name="" id="">
+          <option value="">Pages</option>
+        </select>
+        <a href="">Buy</a>
+      </nav>
+      <img src="./img/menu.png" alt="menu" class="list" onclick="popup()" />
+    </header>
 
-<section class="sakura">
-  <div class="last_main">
-    <img src="./img5/Image.png" alt="sakura" class="b1">
-    <div class="last_title">
-      <img src="./img/start.png" alt="starts" class="last_stars">
-      <h3>Very Berry Summer Smoothie</h3>
-    </div>
-  </div>
-  <div class="last_main">
-    <img src="./img5/g2.png" alt="sakura" class="b1" >
-    <div class="last_title">
-      <img src="./img/start.png" alt="starts" class="last_stars">
-      <h3>Creamy Carrot and Ginger Soup</h3>
-    </div>
-  </div>
-  <div class="last_main">
-    <img src="./img5/g3.png" alt="sakura" class="b1">
-    <div class="last_title">
-      <img src="./img/start.png" alt="starts" class="last_stars">
-      <h3>Loaded Mixed Berries Mini Tarts</h3>
-    </div>
-  </div>
-</section>
-<img src="./img2/Horizontal.png" alt="" class="last_line">
-<section class="registr">
-  <h1>Daily Cooking tips and recipes to your inbox!</h1>
-  <div>
-    <input type="text" placeholder=" Email Address" >
-    <button>JOIN</button>
-  </div>
-</section>
-<section class="registration_form_2">
-  <div class="registration_form_wrapper">
-    <h1>Deliciousness to your inbox</h1>
-    <h3>Enjoy weekly hand picked recipes and recommendations</h3>
-    <div>
-      <input type="text" placeholder=" Email Address" />
-      <button>JOIN</button>
-    </div>
-    <h5>By joining our newsletter you agree to our <a href="">Terms and Conditions</a></h5>
-  </div>
-</section>
-<script src="./script.js"></script>
-</body>
+    <section class="sakura">
+      <div class="last_main">
+        <img src="./img5/Image.png" alt="sakura" class="b1" />
+        <div class="last_title">
+          <img src="./img/start.png" alt="starts" class="last_stars" />
+          <h3>Very Berry Summer Smoothie</h3>
+        </div>
+      </div>
+      <div class="last_main">
+        <img src="./img5/g2.png" alt="sakura" class="b1" />
+        <div class="last_title">
+          <img src="./img/start.png" alt="starts" class="last_stars" />
+          <h3>Creamy Carrot and Ginger Soup</h3>
+        </div>
+      </div>
+      <div class="last_main">
+        <img src="./img5/g3.png" alt="sakura" class="b1" />
+        <div class="last_title">
+          <img src="./img/start.png" alt="starts" class="last_stars" />
+          <h3>Loaded Mixed Berries Mini Tarts</h3>
+        </div>
+      </div>
+    </section>
+    <img src="./img2/Horizontal.png" alt="" class="last_line" />
+    <section class="registr">
+      <h1>Daily Cooking tips and recipes to your inbox!</h1>
+      <div>
+        <input type="text" placeholder=" Email Address" />
+        <button>JOIN</button>
+      </div>
+    </section>
+    <section class="registration_form_2">
+      <div class="registration_form_wrapper">
+        <h1>Deliciousness to your inbox</h1>
+        <h3>Enjoy weekly hand picked recipes and recommendations</h3>
+        <div>
+          <input type="text" placeholder=" Email Address" />
+          <button>JOIN</button>
+        </div>
+        <h5>
+          By joining our newsletter you agree to our
+          <a href="">Terms and Conditions</a>
+        </h5>
+      </div>
+    </section>
+    <img src="./img5/Horizontal.png" alt="line" class="line_3">
+    <section class="last_main_content">
+      <div class="last_left_side">
+        <h1>Latest Recipes</h1>
+        <div class="last_heading">
+          <img src="./img5/lastCake.png" alt="cake" />
+          <div class="last_girl">
+            <img src="./img2/stars2.png" alt="" />
+            <h1>Pumpkin Marshmallow Pie</h1>
+            <p>
+              The perfect dessert for fall! I finally found the perfect way to
+              make the flakiest crust, and the toasted marshmallow is to die
+              for!
+            </p>
+            <div class="last_secondary">
+              <div class="first_block">
+                <img src="./img/girl.png" alt="girl">
+                <span>Tricia Albert</span>
+              </div>
+              <div class="second_block">
+                <div>
+                  <img src="./img5/message-square.png" alt="comments">
+                  <span>456</span>
+                </div>
+                <div>
+                  <img src="./img5/calendar.png" alt="calendar">
+                  <span>Yesterday</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="food_cards">
+            <img src="./img5/burgers.png" alt="burger">
+            <div class="last_food_cards">
+              <img src="./img2/stars2.png" alt="" />
+              <h1>Mighty Cheesy Breakfast Burger</h1>
+              <div class="first_block">
+                <img src="./img/girl.png" alt="girl">
+                <span>Tricia Albert</span>
+              </div>
+              <div class="second_block">
+                <div>
+                  <img src="./img5/message-square.png" alt="comments">
+                  <span>456</span>
+                </div>
+                <div>
+                  <img src="./img5/calendar.png" alt="calendar">
+                  <span>Yesterday</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="food_cards">
+            <img src="./img5/berries.png" alt="berry">
+            <div class="last_food_cards">
+              <img src="./img2/stars2.png" alt="" />
+              <h1>Chocolate and Berries Healthy Pudding</h1>
+              <div class="first_block">
+                <img src="./img/girl.png" alt="girl">
+                <span>Tricia Albert</span>
+              </div>
+              <div class="second_block">
+                <div>
+                  <img src="./img5/message-square.png" alt="comments">
+                  <span>456</span>
+                </div>
+                <div>
+                  <img src="./img5/calendar.png" alt="calendar">
+                  <span>Yesterday</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="food_cards">
+            <img src="./img5/peach.png" alt="peaches">
+            <div class="last_food_cards">
+              <img src="./img2/stars2.png" alt="" />
+              <h1>Caramel Cream Birthday Pudding </h1>
+              <div class="first_block">
+                <img src="./img/girl.png" alt="girl">
+                <span>Tricia Albert</span>
+              </div>
+              <div class="second_block">
+                <div>
+                  <img src="./img5/message-square.png" alt="comments">
+                  <span>456</span>
+                </div>
+                <div>
+                  <img src="./img5/calendar.png" alt="calendar">
+                  <span>Yesterday</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="food_cards">
+            <img src="./img5/yogurt.png" alt="yogurts">
+            <div class="last_food_cards">
+              <img src="./img2/stars2.png" alt="" />
+              <h1>Healthy Caramel Strawberry Milkshake</h1>
+              <div class="first_block">
+                <img src="./img/girl.png" alt="girl">
+                <span>Tricia Albert</span>
+              </div>
+              <div class="second_block">
+                <div>
+                  <img src="./img5/message-square.png" alt="comments">
+                  <span>456</span>
+                </div>
+                <div>
+                  <img src="./img5/calendar.png" alt="calendar">
+                  <span>Yesterday</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="last_right_side">
+        <!-- <div>
+          <img src="./img5/32px.png" alt="tara">
+          <div>
+            <h1>Hi, I’m Tara</h1>
+            <p>I’m a former dentist with a big passion for food, now I’m full time food blogger. I love exploring new cooking techniques as well as easy and fun recipes.</p>
+            <button>Read More</button>
+          </div>
+        </div> -->
+      </div>
+    </section>
+    <script src="./script.js"></script>
+  </body>
 </html>
