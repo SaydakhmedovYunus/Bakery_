@@ -1436,7 +1436,6 @@ text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items:center;
 }
 .b1 {
   width: 100%;
@@ -1523,3 +1522,138 @@ text-align: left;
   width: 100%;
 }
 
+.last_main_content {
+  margin-left: calc(14vw - 37.8px);
+  margin-right: calc(14vw - 37.8px);
+  margin-top: calc(4.13vw + 20.5px);
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+}
+.last_left_side {
+  display: flex;
+  flex-direction:column;
+  gap: 30px;
+}
+.last_left_side h1 {
+font-family: 'Playfair Display';
+font-size: calc(0.98vw + 16.7pxgr rgb );
+font-weight: 700;
+line-height: 37px;
+text-align: left;
+color:#000000;
+}
+.last_heading {
+  display: flex;
+  flex-direction: column;
+  border:1px solid #E8E8E8;
+}
+.last_heading img {
+  width: 100%;
+}
+.last_girl {
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.last_girl img {
+  width: 96px;
+}
+.last_girl h1 {
+font-family: 'Inter';
+font-size: 30px;
+font-weight: 600;
+line-height: 37px;
+text-align: left;
+}
+.last_girl p {
+font-family: 'Inter';
+font-size: 18px;
+line-height: 28px;
+letter-spacing: -0.20000000298023224px;
+text-align: left;
+}
+.last_secondary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.first_block {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  gap: 5px;
+}
+.first_block img {
+  width: 36px;
+}
+.first_block span {
+font-family: 'Inter';
+font-size: 12px;
+line-height: 15px;
+text-align: left;
+}
+.second_block{
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  gap: 30px;
+}
+.second_block img {
+  width: 16px;
+}
+.second_block span {
+font-family: 'Inter';
+font-size: 12px;
+line-height: 15px;
+text-align: left;
+}
+.second_block div {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  gap: 5px;
+}
+.food_cards {
+  margin-top: calc(4.13vw + 20.5px);
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  gap: 30px;
+}
+@media (max-width:500px) {
+  .food_cards {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .food_cards img {
+    width: 100%;
+  }
+}
+.last_food_cards {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.last_food_cards img {
+  width: 96px;
+}
+.last_food_cards h1 {
+font-family: 'Inter';
+font-size: 20px;
+font-weight: 600;
+line-height: 28px;
+letter-spacing: -0.20000000298023224px;
+text-align: left;
+}
+.first_block img {
+  width: 32px;
+}
+.second_block img {
+  width: 16px;
+}
+.line_3 {
+  width: 100%;
+}
