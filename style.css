@@ -1529,6 +1529,7 @@ text-align: left;
   margin-bottom: 40px;
   display: flex;
   flex-direction: row;
+  gap: 30px;
 }
 .last_left_side {
   display: flex;
@@ -1655,5 +1656,146 @@ text-align: left;
   width: 16px;
 }
 .line_3 {
+  width: 100%;
+}
+
+.tara {
+  width: 375px;
+  border:1px solid #E8E8E8;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+
+}
+.tara img {
+  width: 100px; 
+}
+.tara div {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+  gap: 10px;
+}
+.tara div h1 {
+font-family: 'Inter';
+font-size: 24px;
+font-weight: 600;
+line-height: 38px;
+text-align: center;
+}
+.tara div p {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+  color:#000000;
+}
+.tara div button {
+width: 119px;
+height: 29px;
+padding: 6px 24px 6px 24px;
+gap: 10px;
+border-radius: 2px 0px 0px 0px;
+border: 1px solid black;
+background-color:transparent;
+}
+.fresh_recipes {
+  margin-top: 40px;
+}
+.last_grids {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.last_grids div {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+@media (max-width) {
+  
+}
+@media(max-width:900px) {
+  .last_main_content {
+    flex-wrap: wrap;
+  }
+  .tara {
+    width: 100%;
+  }
+}
+
+.insta_blog {
+  margin-top: 80px;
+}
+
+.insta_logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+}
+.insta_logo img {
+  width: 102px;
+  height: 29px;
+}
+.insta_logo button {
+  width: 91px;
+  height: 29px;
+  top: 40px;
+  left: 235px;
+  padding: 6px 24px 6px 24px;
+  gap: 10px;
+  border-radius: 2px;
+  border: 1px solid black;
+  background-color:transparent;
+
+font-family: 'Inter';
+font-size: 14px;
+font-weight: 500;
+line-height: 16.94px;
+letter-spacing: -0.15555556118488312px;
+text-align: center;
+}
+.subscribers {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:center;
+}
+.subscribers div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.subscribers div span:nth-child(1) {
+  font-weight: bold;
+font-family: 'Inter';
+font-size: 16px;
+font-weight: 600;
+line-height: 24px;
+text-align: left;
+}
+.subscribers div span:nth-child(2) {
+font-family: 'Inter';
+font-size: 12px;
+line-height: 15px;
+text-align: left;
+color:#7F7F7F;
+}
+.again_last_grids {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.again_last_grids img {
   width: 100%;
 }
